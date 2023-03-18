@@ -56,8 +56,8 @@ include('connect.php');
                         <td>' . $mobile . '</td>
                         <td>' . $password . '</td>
                         <td>
-                            <button class="btn btn-primary" ><a href="" class="text-light">Update</a></button>
-                            <button class="btn btn-danger"><a href="" class="text-light">Delete</a></button>
+                            <button class="btn btn-primary" ><a href="update.php? updateid='.$id.'" class="text-light">Update</a></button>
+                            <button class="btn btn-danger"><a href="delete.php? deleteid='.$id.'" class="text-light">Delete</a></button>
                         </td>
                       </tr>';
                     }
